@@ -18,10 +18,12 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 /**
- * A heap data structure with a custom comparator and generic datatype
  * @author Bhaskar
  * @param <T>
  */
+ 
+// This class implements a heap data structure with a custom comparator and generic datatype
+ 
 public class Heap <T> {
     public Heap(Comparator<T> comp){
         this.comp = comp;
