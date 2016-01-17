@@ -23,7 +23,8 @@ import java.util.Comparator;
  * @param <T>
  */
 
-// This data structure gets the median of a series of inputs
+// This data structure gets the median of a all entries of a generic data type
+
 public class MedianDataStructure <T extends Comparable<T>>{
     class NaturalComparator implements Comparator<T>{
         @Override
