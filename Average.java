@@ -13,12 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+ 
+ 
 /**
  *
  * @author Bhaskar
  * @param <T>
- * When the number of Elements in the data structure is even, the median give the average of the two median elements
  */
+
+// An inteface used by the Median data structure class
+// When the number of elements is even, Median is the average of the two median elements
 public interface Average<T> {
     public T average(T o1, T o2);
 }
