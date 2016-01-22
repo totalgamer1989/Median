@@ -68,6 +68,7 @@ public class Heap <T> {
         int size = data.size();
         T replacement = data.get(size - 1);
         data.remove(size - 1);
+        if (data.size() == 0) return retval;
         data.set(curr, replacement);
         // sift down
         
